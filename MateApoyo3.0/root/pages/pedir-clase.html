@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedir clase</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="shortcut icon" href="../multimedia/LogoIndividual.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="linkheader-color">
+             <li><a href="../index.html"><img src="../multimedia/MateApoyoLogo.png" class="logo-header inline" alt="Inicio"></a></li>
+             <li><a href="./tu-profesor.html">Tu Profesor</a></li>
+             <li><a href="./ejemplos.html">Ejemplos</a></li>
+             <li><a href="#">Pedir clase</a></li>
+             <li><a href="./contacto.html">Contacto</a></li>
+             <li><a href="./unirse.html">Unirse</a></li>
+             <li><a href="./suscripcion.html">Suscripción</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="volver5">¡Pedí tu clase acá!</h1>
+        <section>
+            <form>
+                <input type="text" id="nombre" required placeholder="..."><label for="nombre">Nombre y apellido</label>
+                <input type="text" id="correo" required placeholder="..."><label for="correo">Correo electrónico</label>
+                <select name="nivel" required id="nivel" placeholder="..."><label for="nivel">Nivel</label>
+                    <option value="primario">Primario</option>
+                    <option value="secundario">Secundario</option>
+                    <option value="universidad">Ingreso Universitario</option>
+                </select>
+                <select name="formatoclase" required id="formato" placeholder="..."><label for="formato">Formato de clase</label>
+                    <option value="virtual">Virtual</option>
+                    <option value="presencial">Presencial</option>
+                    <option value="ambas">Ambas</option>
+                </select>
+                <input type="text" id="aprender" required placeholder="..."><label for="aprender">¿Qué vas a aprender?</label>
+                <input type="submit">
+                <input type="reset">
+           </form>
+           <h2>Recordá dar la información completa sobre el tema que querés aprender y dónde querés recibir tu clase.<br>
+            <br>¡No olvides tu carpeta!</h2>
+       </section>
+       <aside>
+         <a href="./unirse.html">¿Sos profesor? Formá parte de nuestro equipo!</a>
+       </aside>
+       <section>
+            <form>
+                <input type="text" required placeholder="Código de clase">
+                <button>✓</button>
+                <input type="radio" id="input1"><!--
+                --><label for="input1"><img src="../multimedia/Mastercard_logo.png" alt="Mastercard"></label><!--
+                --><input type="radio" id="input2"><!--
+                --><label for="input2"><img src="../multimedia/visa_logo.png" alt="Visa"></label><!--
+                --><input type="radio" id="input3"><!--
+                --><label for="input3"><img src="../multimedia/paypal_logo.png" alt="Paypal"></label>
+                <input type="submit">
+            </form>
+            <iframe src="../multimedia/proximamente.mp4"></iframe>
+            <h2>¿Dudas? ¿Consultas? Contactate por <a href="./contacto.html">acá</a>.</h2>
+       </section>
+       <h3>¡O seguinos para aprender más!</h3>       
+    </main>
+    <footer>
+        <div class="center">
+            <a href="#volver5"><img src="../multimedia/LogoIndividual.png" alt="MateApoyo" class="logo-footer" class="block"></a>
+        </div>
+        <nav>
+            <ul class="left-footer inline-block left-text">
+                <li><a href="./suscripcion.html"><img src="../multimedia/money_logo.png" alt="Suscripción"></a></li>
+                <li><a href="./contacto.html"><img src="../multimedia/help_logo.png" alt="Ayuda"></a></li>
+            </ul>
+            <ul class="inline center">
+                <li><a href="https://www.facebook.com/profile.php?id=61551037269502" target="_blank"><img src="../multimedia/Facebook_Logo_(2019).png" alt="Facebook"></a></li>
+                <li><a href="https://wa.me/541132874847" target="_blank"><img src="../multimedia/whatsapp_logo.png" alt="WhatsApp"></a></li>
+                <li><a href="https://www.instagram.com/mateapoyo.oficial/?hl=es-la" target="_blank"><img src="../multimedia/instagram_logo.png" alt="Instagram"></a></li>
+                <li><a href="https://www.tiktok.com/@mateapoyo" target="_blank"><img src="../multimedia/tiktok_logo.png" alt="TikTok"></a></li>
+                <li><a href="#footer"><img src="../multimedia/share_logo.png" title=PRÓXIMAMENTE alt="Compartir(próximamente)"></a></li>
+            </ul>
+            <a href="#footer" class="right-footer right-text inline-block"><img src="../multimedia/phone_logo.png" title="+54 11 3287-4847" alt="Llamar"></a>
+        </nav>
+    </footer>
+</body>
+</html>
